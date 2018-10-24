@@ -20,6 +20,7 @@ export class CurrentWeatherComponent implements OnInit {
     //  temperature: 72,
     //  description: 'sunny',
     // } as ICurrentWeather
+
     this.weatherService
       .getCurrentWeather('Bethesda', 'US')
       .subscribe(data => (this.current = data))
