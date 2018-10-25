@@ -1,0 +1,1 @@
+FROM antocecere77/local-weather-app:1.0.0
